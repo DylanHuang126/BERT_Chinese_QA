@@ -1,15 +1,14 @@
-install required package:
-pip install tensorboardX
-pip install matplotlib
+# BERT_Chinese_QA
+BERT-based Chinese Question Answering using hugging-face BERT for fine-tuning.
 
-train model:
-    python3.6 train.py
+### Requirement
 
-plot answerable threshold figure:
-    run python3.6 thresh.py
-    
-plot answer length distribution:
-    run python3.6 train.py
-    
+Run `bash download.sh` for download all the requirements data.
 
-    
+### BERT model prediction
+
+Run `bash run.sh --path/to/input/file --path/to/output/file` for Question Answering model prediction.
+
+### Summary
+
+Please refer to "report.pdf".
